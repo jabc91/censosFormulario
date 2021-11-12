@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="estilosf.css">
+    <script src="formulario.js"></script>
+    <title>Formulario</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navegacion">
+        <ul class="menu">
+          <li><a href="C:\Users\bonil\Desktop\Python\programas\HTML\reto java menu\index.html">Inicio</a></li>
+          <li><a href="C:\Users\bonil\Desktop\Python\programas\HTML\reto java menu\formulario.html">Registrate</a></li>
+          <li><a href="https://www.inec.cr/">INEC</a>
+            <ul class="submenu">
+              <li><a href="https://www.inec.cr/acerca-inec">ACERCA DE INEC</a></li>
+              <li><a href="https://www.inec.cr/jerarcas-y-decisiones">JERARCAS Y DECISIONES</a></li>
+              <li><a href="https://www.inec.cr/noticias">NOTICIAS</a></li>
+
+            </ul>
+          </li>
+          <li><a href="https://www.inec.cr/contactenos">Contactenos</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <form action="" name="formulario" method="get" class="formulario">
+      <h4>FORMULARIO DE REGISTRO</h4>
+      <input type="text" class="controls" name="nombre" id="nombre" maxlength="30" placeholder="Nombre" required>
+      <br>
+      <input type="text" class="controls" name="apellido" id="apellido" maxlength="30" placeholder="Apellido" required>
+      <br>
+      <input type="text" class="controls"name="fnacimiento" id="fnacimiento" maxlength="30" placeholder="Fecha de nacimiento" required>
+      <br>
+      <input type="text" class="controls" name="mnacimineto" id="mnacimiento" maxlength="30" placeholder="Mes de nacimiento" required>
+      <br>
+      <input type="text" class="controls" name="anacimiento" id="anacimiento" maxlength="30" placeholder="Año de nacimiento" required>
+      <br>
+      <input type="text" class="controls"name="sexo" id="sexo" maxlength="30" placeholder="Sexo" required>
+      <br>
+      <input type="text" class="controls" name="estadoc" id="estadoc" maxlength="30" placeholder="Estado civil" required>
+      <br>
+      <input type="submit" class="p" id="btn" name="btn" value="Enviar" onclick="captura()">
+    </form>
+
+  </body>
+</html>
